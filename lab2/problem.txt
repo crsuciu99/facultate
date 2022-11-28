@@ -1,0 +1,14 @@
+begin
+int sum;
+int a;
+int k;
+
+sum = 0;
+a = 0;
+input(k);
+while(a => k)
+	if(a % 2 == 0)
+		sum = sum + a;
+	a = a + 1;
+output(k);
+stop
